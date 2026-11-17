@@ -1,7 +1,7 @@
 
 import ReactMarkdown from 'react-markdown';
 
-function ClaudeRecipe(props){
+function Recipe(props){
     return( 
     <section className="suggested-recipe-container" aria-live="polite">
          <h2>Chef ZAYYAN Recommends:</h2>
@@ -9,7 +9,7 @@ function ClaudeRecipe(props){
     </section> )
 }
 
-export default ClaudeRecipe
+export default Recipe
 
 
 //PREVIOUSLY USED HARDCODED SCRIPT TO TEST BEFORE AI

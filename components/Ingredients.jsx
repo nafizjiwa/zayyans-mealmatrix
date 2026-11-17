@@ -1,7 +1,7 @@
 
 import Footer from './Footer';
 
-function ClaudeIngredients({ingredients, /*toggleRecipeShown*/ getRecipe}){
+function Ingredients({ingredients, /*toggleRecipeShown*/ getRecipe}){
     return (
         <section>
             <h2>Ingredients on hand: </h2>
@@ -19,4 +19,4 @@ function ClaudeIngredients({ingredients, /*toggleRecipeShown*/ getRecipe}){
 }
 
 
-export default ClaudeIngredients
+export default Ingredients

@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import ClaudeRecipe from './ClaudeRecipe';
-import ClaudeIngredients from './ClaudeIngredients';
+import Recipe from './Recipe';
+import Ingredients from './Ingredients';
 import { getRecipeFromMistral } from '../src/ai';
 
 function MainSection(){
@@ -90,7 +90,7 @@ function MainSection(){
                 <button>Add ingredient</button>
             </form>  
             {(ingredients.length > 0) && 
-            <ClaudeIngredients
+            <Ingredients
              ingredients={ingredients}
             //  toggleRecipeShown={toggleRecipeShown}
             //once AI set up to get recipe once UI chooses
@@ -100,7 +100,7 @@ function MainSection(){
             
             {/* { recipeShown &&  <ClaudeRecipe /> } */}
             {/* once AI setup and new state created use new state */}
-            { recipe && <ClaudeRecipe recipe={recipe}/>}
+            { recipe && <Recipe recipe={recipe}/>}
 
         </main>
     )
