@@ -6,7 +6,7 @@ function ClaudeIngredients({ingredients, /*toggleRecipeShown*/ getRecipe}){
         <section>
             <h2>Ingredients on hand: </h2>
             <ul className='ingredients-list'>
-                 {ingredients.map((i)=><li>{i}</li>)}
+                 {ingredients.map((i, index)=><li key={`${i}-${index}`}>{i}</li>)}
             </ul>
              {(ingredients.length > 3) && 
             //  <Footer getRecipe ={toggleRecipeShown} 
