@@ -1,6 +1,6 @@
 
 import Footer from './Footer';
-
+// I am testing if this commits
 function Ingredients({ingredients, /*toggleRecipeShown*/ getRecipe}){
     return (
         <section>

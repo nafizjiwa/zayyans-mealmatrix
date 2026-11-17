@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Recipe from './Recipe';
 import Ingredients from './Ingredients';
 import { getRecipeFromMistral } from '../src/ai';
+// I am testing if this commits
 
 function MainSection(){
 
