@@ -1,5 +1,5 @@
 
-
+// I am testing if this commits
 function Footer({getRecipe}){
     
     return (
